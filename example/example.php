@@ -2,7 +2,7 @@
 require_once("../src/DbHandler.php");
 try {
             // Initialize database handler
-            $db = DbHandler::getInstance('localhost', 'username', 'password');
+            $db = DbHandler::getInstance('localhost', 'root', '');
             
             // Create new database
             $db->createDatabase('my_application');
