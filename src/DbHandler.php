@@ -1,4 +1,5 @@
 <?php
+namespace DB;
 class DbHandler {
     private $connection;
     private $stmt;
